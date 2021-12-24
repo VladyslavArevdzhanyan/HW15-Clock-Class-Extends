@@ -33,7 +33,6 @@ class FirstClock extends MainClock {
         const minutes = (time.getMinutes() < 10) ? '0' + time.getMinutes() : time.getMinutes();
         const seconds = (time.getSeconds() < 10) ? '0' + time.getSeconds() : time.getSeconds();
         
-        
         if(isFullTime) {
             return `${hours}:${minutes}:${seconds}`
         } else {
